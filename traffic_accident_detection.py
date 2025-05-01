@@ -5,11 +5,6 @@ import numpy as np
 # This script captures video from webcam, detects traffic-related objects in real-time,
 # highlights them with bounding boxes and labels, and alerts if potential accident detected.
 
-# You need to download the following files and place them in the same directory as this script:
-# 1. yolov4.weights: https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4.weights
-# 2. yolov4.cfg: https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg
-# 3. coco.names: https://github.com/pjreddie/darknet/blob/master/data/coco.names
-
 weights_path = "yolov4.weights"
 config_path = "yolov4.cfg"
 names_path = "coco.names"
